@@ -71,6 +71,7 @@ styles["ICON_SIZE"] = {
   "height": "42px",
   "width": "30px",
   "top": "325px",
+  "cursor": "pointer"
 }
 
 styles["CENTER"] = {

@@ -82,6 +82,10 @@ styles[CONSTANTS.SPLATTERS[5][0]] = {
   "height": "40px",
 }
 
+styles["ICON"] = {
+  cursor: "pointer"
+}
+
 styles["CENTER"] = {
   textAlign: "center",
   fontFamily: "Dancing Script, cursive"
@@ -150,7 +154,7 @@ function Tightrope() {
     return CONSTANTS.SPLATTERS.map((splatterStyle, index) => (
         <div
           key={index}
-          style={styles[splatterStyle[0]]}
+          style={{...styles[splatterStyle[0]], ...styles["ICON"]}}
           onClick={() => handleFigureClick(index)}
           >
             {splatteredIndex === index && (

@@ -91,6 +91,7 @@ styles["ICON_SIZE"] = {
   "height": "40px",
   "width": "25px",
   "top": "115px",
+  "cursor": "pointer"
 }
 
 styles["MAP_STYLE"] = {
